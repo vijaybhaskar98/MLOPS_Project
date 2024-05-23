@@ -1,11 +1,9 @@
 ## Experiment Tracking Notes
 
-## Video 1: Introduction
 
 ### Important concepts:
 1. ML Experiment: 
     - the whole process of building an ML model
-    - different from A/B testing
 2. Experiment run: 
     - each trial in an ML experiment
     - each trial in the modeling (changes in architecture, hyperparameters)
@@ -215,7 +213,7 @@ INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
 [2022-05-25 08:21:54 +0800] [19280] [INFO] Booting worker with pid: 19280
 ```
 
-Just like in Video 1, we can access the UI on the browser via http://127.0.0.1:5000
+ we can access the UI on the browser via http://127.0.0.1:5000
 
 At this point, since we have just started this, we won't have any experiment runs yet.
 
