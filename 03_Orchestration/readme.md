@@ -17,7 +17,7 @@ We need to accomplish the following requirements so as to get familiar with Pref
 
 ## Setting up mlflow ##
 
-I am using the same AWS VM that was used in the first module. Here is the [link](https://github.com/BPrasad123/MLOps_Zoomcamp/tree/main/Week1) to take a look at the steps again. All I had to for now to start the mlflow UI was just to execute the following in the terminal connected to the VM host.
+I am using the same GCP VM that was used in the first module. All I had to for now to start the mlflow UI was just to execute the following in the terminal connected to the VM host.
 
 ```mlflow ui --backend-store-uri sqlite:///mlflow.db```
 
